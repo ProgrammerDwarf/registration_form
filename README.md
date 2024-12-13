@@ -5,6 +5,8 @@
 Este proyecto es una página web sencilla, siguiendo los lineamientos del currículo de FreeCodeCamp .
 La intención es aplicar lo aprendido e ir comunicando el proceso en este README.md 
 
+También usé el proyecto para practicar git. Más precisamente, la creación de ramas y su actualización en remoto.
+
 ## Tabla de contenidos
 - [Configuración](#configuración-del-entorno)
 - [Tecnologías](#tecnologías-usadas)
