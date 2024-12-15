@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <h1>Registration Form</h1>
@@ -15,8 +16,35 @@
             <label for="">Enter Your Email: <input id="email" type="email" required></label>
             <label for="">Create a New Password: <input id="new-password" type="password" pattern="[a-z0-5]{8,}" required></label>
         </fieldset>
-        <fieldset></fieldset>
-        <fieldset></fieldset>
+        <fieldset>
+            <legend>
+                Account type (required)
+                <label for="personal-account">
+                    <input id="personal-account" type="radio">
+                    Personal Account
+                </label>
+                <label for="business-account">
+                    <input id="business-account" type="radio">
+                    Business Account
+                </label>
+            </legend>
+        </fieldset>
+        <fieldset>
+            <label>Upload a profile picture: <input type="file"></label>
+            <label>Input your age: <input type="number" min="13" max="120"></label>
+            <label for="">
+                How did you hear about us?
+                <select name="" id="">
+                    <option value="">(select one)</option>
+                    <option value="">freeCodeCamp News</option>
+                    <option value="">freeCodeCamp YouTube Channel</option>
+                    <option value="">freeCodeCamp Forum</option>
+                    <option value="">Other</option>
+                </select>
+            </label>
+        </fieldset>
+        <label><input type="checkbox"> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/"></a></label>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
